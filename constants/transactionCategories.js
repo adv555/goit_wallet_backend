@@ -1,0 +1,90 @@
+const transactionCategories = [
+  {
+    id: "321321321",
+    name: "Еда",
+    isInc: false,
+    color: "#f6cd66",
+    isActive: true,
+  },
+  {
+    id: "321345621",
+    name: "Одежда",
+    isInc: false,
+    color: "#fcd8d0",
+    isActive: true,
+  },
+  {
+    id: "387721321",
+    name: "Дети",
+    isInc: false,
+    color: "#f2989c",
+    isActive: true,
+  },
+  {
+    id: "321378971",
+    name: "Дом",
+    isInc: false,
+    color: "#c3bdf8",
+    isActive: true,
+  },
+  {
+    id: "321323321",
+    name: "Авто",
+    isInc: false,
+    color: "#7684E2",
+    isActive: true,
+  },
+  {
+    id: "321320909",
+    name: "Развитие",
+    isInc: false,
+    color: "#5466DD",
+    isActive: true,
+  },
+  {
+    id: "771321321",
+    name: "Остальное",
+    isInc: false,
+    color: "#90DFF9",
+    isActive: true,
+  },
+  {
+    id: "321328821",
+    name: "Налоги",
+    isInc: false,
+    color: "#4FCBAB",
+    isActive: true,
+  },
+  {
+    id: "321311321",
+    name: "Выплаты по кредиту",
+    isInc: false,
+    color: "#38AF8C",
+    isActive: false,
+  },
+  {
+    id: "111321321",
+    name: "Прочие расходы",
+    isInc: false,
+    color: "#fff555",
+    isActive: true,
+  },
+  {
+    id: "321344421",
+    name: "Регулярный доход",
+    isInc: true,
+    color: "#7FC18F",
+    isActive: true,
+  },
+  {
+    id: "321222321",
+    name: "Нерегулярный доход",
+    isInc: true,
+    color: "#5C902E",
+    isActive: true,
+  },
+];
+
+module.exports = {
+  transactionCategories,
+};
